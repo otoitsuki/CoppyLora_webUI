@@ -172,7 +172,7 @@ def train(input_image_path, lora_name, mode_inputs):
         "--train_batch_size", "2",
         "--network_dim", "16",
         "--network_alpha", "16",
-        "--optimizer_type", "AdamW8bit",
+        "--optimizer_type", "AdamW",
         "--mixed_precision", "fp16",
         "--save_precision", "fp16",
         "--lr_scheduler", "constant",
